@@ -63,6 +63,7 @@
   "dependencies": {
     "chart.js": "^2.5.0",
     "core-js": "^2.0.0",
+    "csv-parse": "^1.2.0",
     "fs": "0.0.1-security",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
