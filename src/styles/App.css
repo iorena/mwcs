@@ -1,0 +1,74 @@
+/* Base Application Styles */
+body {
+  color: #565F66;
+  background: white;
+  font-family: "Source Sans Pro",sans-serif;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.title h1 {
+  text-align: center;
+  color: #05acf0;
+}
+
+.fileupload {
+  margin-top: 50px;
+  left: 50%;
+  text-align: center;
+}
+
+.fileupload h2 {
+  color: #05acf0;
+  font-size: 24px;
+}
+
+.fileupload input {
+  border-style: solid;
+  font-size: 16px;
+  color: #05acf0;
+  border-color: #05acf0;
+  padding: 15px 15px;
+  background: white;
+  border: 5 none;
+  font-weight: bold;
+  width: 140px;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+span {
+  display: inline-block;
+}
+
+.fileupload input:hover {
+  color: #565F66;
+  border-color: #565F66;
+}
+
+.uploadHidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.button {
+  color: #05acf0;
+  border-color: #05acf0;
+}

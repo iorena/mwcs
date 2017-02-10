@@ -1,0 +1,13 @@
+.results {
+  color: #565F66;
+  text-align: center;
+  height: 500px;
+}
+
+.employeeContainer {
+  padding: 0px 30px;
+  width: 20%;
+  color: #05acf0;
+  display: inline-block;
+}
+
