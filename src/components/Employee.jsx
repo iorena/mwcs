@@ -5,8 +5,8 @@ export default class Employee extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      hourCanvasId: props.data.name.split(' ')[0] + 'Hours',
-      salaryCanvasId: props.data.name.split(' ')[0] + 'Salary',
+      hourCanvasId: props.data.id + 'Hours',
+      salaryCanvasId: props.data.id + 'Salary',
       name: props.data.name,
       hours: props.data.hours,
       salary: props.data.salary
@@ -45,9 +45,9 @@ export default class Employee extends React.Component {
       <div className='employeeContainer'>
 	<h2>{this.state.name}</h2>
 	<span>Total hours: {this.state.hours.total}</span>
-        <canvas id={this.state.hourCanvasId} width="300" height="400"/>
+        <canvas id={this.state.hourCanvasId} width="200" height="300"/>
 	<span>Total salary: ${this.state.salary.total}</span>
-        <canvas id={this.state.salaryCanvasId} width="300" height="400"/>
+        <canvas id={this.state.salaryCanvasId} width="200" height="300"/>
       </div>
     );
   }

@@ -51,10 +51,11 @@ function parseRows(data, people) {
 	            };
   /* First find people, so we know the size of our object */
   for (var i = 1; i < people.length; i++) {
-    parsedObject[i] = { name: people[i],
-		     hours: emptyObject,
-		     salary: emptyObject
-		   };
+    parsedObject[i] = { id: i,
+			name: people[i],
+		        hours: emptyObject,
+		        salary: emptyObject
+		      };
   }
   /* Parse each row and add data to correct person's object */
   for (var row  = 1; row < data.length; row++) {
